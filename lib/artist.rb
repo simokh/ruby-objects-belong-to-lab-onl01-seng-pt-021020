@@ -3,7 +3,7 @@ class Artist
 
   attr_reader :name
 
-  def intialize(name)
+  def intialize(name, artist)
     @name = name
 
 
