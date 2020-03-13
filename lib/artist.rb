@@ -1,11 +1,10 @@
 require 'pry'
 class Artist
 
-  attr_reader :name
+  attr_reader :name, :artist
 
-  def intialize(name, artist)
+  def intialize(name)
     @name = name
-    @artist = artist 
   end
   binding.pry
 end
