@@ -6,5 +6,5 @@ class Artist
   # def intialize(name)
   #   @name = name
   # end
-  # binding.pry
+  binding.pry
 end
