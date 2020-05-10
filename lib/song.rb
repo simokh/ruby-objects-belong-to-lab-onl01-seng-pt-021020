@@ -1,6 +1,10 @@
+require 'pry'
+
 class Song
+    attr_accessor :title, :artist 
+end 
 
-attr_accessor :title, :artist
+  
 
 
-end
+
